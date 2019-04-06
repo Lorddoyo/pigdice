@@ -29,36 +29,42 @@
           </nav>
            <div class='dice'>
              <p id = "gon">Player 1</p>
-             <img clas="img1"src="/home/lorddoyo/Desktop/pigdice/images/downlod6.png">
+             <img id="img1"src="/home/lorddoyo/Desktop/pigdice/images/downlod6.png">
              <form id="player-1">
             <div class="form-group">
               <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Player 1 username" label="Participant's username" describedby="button-addon0" id ="fala1">
                 <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="text" onclick="replaceText(this.value)"  id="addon0">Button</button>
+                <button class="btn btn-outline-secondary" type="submit"  id="addon0">Button</button>
                 </div>
               </div>
 
-              <button = type="button" class="btn btn-lg btn-primary" onclick="roll1()">ROLL</button>
+              <button = type="button" class="btn btn-lg btn-primary" onclick="roll()">ROLL</button>
 
-              <button type="button" class="btn btn-lg btn-primary" >Hold</button>
+              <button type="button" class="btn btn-lg btn-primary"  onclick="hold1()">Hold</button>
+              <p> Roll Number <span id = "roll"></span></p>
+              <p> Total Turn <span id = "turn"></span></p>
+              <p> Total Points <span id = "points"></span></p>
             </div>
           </form>
 
            </div>
            <div class='dice'>
              <p id = "kilua">Player 2</p>
-             <img class="img2"src="/home/lorddoyo/Desktop/pigdice/images/downlod6.png">
+             <img id="img2"src="/home/lorddoyo/Desktop/pigdice/images/downlod6.png">
              <form id="player-2">
             <div class="form-group">
               <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Player 2 username" label="Participant's username" describedby="button-addon1"id ="fala2">
                 <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="text" onclick ="changeText(this.value)" id="addon1">Button</button>
+                <button class="btn btn-outline-secondary" type="submit"  id="addon1">Button</button>
                 </div>
               </div>
-              <button = type="button" class="btn btn-lg btn-primary" onclick="roll2()">ROLL</button>
-              <button type="button" class="btn btn-lg btn-primary" >Hold</button>
+              <button = type="button" class="btn btn-lg btn-primary" onclick="roll1()">ROLL</button>
+              <button type="button" class="btn btn-lg btn-primary"  onclick="hold2()">Hold</button>
+              <p> Roll Number <span id = "roll0"></span></p>
+              <p> Total Turn <span id = "turnt"></span></p>
+              <p> Total Points <span id = "points1"></span></p>
             </div>
           </form>
 
