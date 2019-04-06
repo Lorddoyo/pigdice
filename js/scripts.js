@@ -127,3 +127,8 @@ function roll1(){
     document.getElementById("turnt").innerHTML=roundPoint
   }
 };
+
+function hold2(){
+  totalPoint += roundPoint
+  document.getElementById("points1").innerHTML=totalPoint
+}
