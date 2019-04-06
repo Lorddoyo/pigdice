@@ -76,10 +76,11 @@ function hold1(){
   totalPoint += roundPoint
   document.getElementById("points").innerHTML=totalPoint
 }
+//player two roll and hold1
 function roll1(){
   var randomNumber = Math.floor(Math.random()*6)+1;
   if(randomNumber === 1){
-    document.getElementById("rollo").innerHTML=randomNumber
+    document.getElementById("roll0").innerHTML=randomNumber
     document.getElementById("img2").src = "images/downlod1.png";
     roundPoint = 0;
     document.getElementById("turnt").innerHTML=roundPoint
