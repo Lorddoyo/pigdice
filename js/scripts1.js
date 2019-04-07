@@ -70,3 +70,8 @@ function roll1(){
   })
 
 }
+//player two holding
+function hold2(){
+  totalPoint += roundPoint
+  document.getElementById("points1").innerHTML=totalPoint
+}
