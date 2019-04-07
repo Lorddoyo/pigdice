@@ -24,12 +24,16 @@ img{
   text-align: center;
 }
 .body1{
-  background-image: url(..//images/qwe.jpeg);
+  background-image: url(..//images/damn.jpg);
 
 }
 .container{
-  background-image: url(..//images/wololo.jpeg);
+  background-image: url(..//images/waah.jpeg);
+  font-size:26px;
 }
 .body2{
-  background-image: url(..//images/kaka.jpeg);
+  background-image: url(..//images/damn.jpg);
+}
+body{
+  background-image: url(..//images/damn.jpg);
 }
