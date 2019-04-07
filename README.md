@@ -1,11 +1,11 @@
-#PIG DICE
+# PIG DICE
 
-###Pig is a simple dice game which in its basic form is playable with just a single die. You win by being the first player to score 100 or more points.To play you'll need 2 to 10 players, one 6-sided dice, and a pencil and some paper for keeping score.if a player scores a 1 the round's total will be zero**__By Adano Godana__**
+### Pig is a simple dice game which in its basic form is playable with just a single die. You win by being the first player to score 100 or more points.To play you'll need 2 to 10 players, one 6-sided dice, and a pencil and some paper for keeping score.if a player scores a 1 the round's total will be zero**__By Adano Godana__**
 
-##DESCRIPTION
-####This is an online dice game (written in JavaScript) played by two players and a single dice. Each player has a turn to roll the dice and the top face on which the dice lands on represents her score for that roll and he or she is given the option to roll again and each roll score is added up to form a turn score. If the person rolls a one, he or she loses the turn score and it becomes the opponents turn. A player has the ability to hold a score and pass the turn to the opponent to save his score. The first player to reach a hundred points wins.
+## DESCRIPTION
+#### This is an online dice game (written in JavaScript) played by two players and a single dice. Each player has a turn to roll the dice and the top face on which the dice lands on represents her score for that roll and he or she is given the option to roll again and each roll score is added up to form a turn score. If the person rolls a one, he or she loses the turn score and it becomes the opponents turn. A player has the ability to hold a score and pass the turn to the opponent to save his score. The first player to reach a hundred points wins.
 
-##BDD
+## BDD
 |    Behaviour            |    input    |    output       |
 |-------------------------|-------------|-----------------|
 |Players enter their name | Lorddoyo    | Lorddoyo        |
@@ -23,7 +23,7 @@
 |  scores a 100 points    |     100     |  you have won   |
 |-------------------------|-------------|-----------------|
 
-##Setup/Installation Requirements
+## Setup/Installation Requirements
 * Open your browser browser.
 * Load gitHub on your browser.
 * Search for Lorddoyo/.... repository.
