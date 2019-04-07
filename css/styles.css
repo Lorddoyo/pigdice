@@ -2,6 +2,7 @@
   text-align: center;
   width: 80%;
   margin:30px auto;
+
 }
 
 .dice{
@@ -10,6 +11,7 @@
 body{
 
   font-family: 'Cinzel', serif;
+
 }
 h1{
   font-size: 4rem;
@@ -40,11 +42,9 @@ body{
 }
 #refresh{
 
-  font-size: 33px;
+  font-size: 40px;
+  color: #b30000;
 
   top: 50%;
   left: 50%;
-  
-
-
 }
