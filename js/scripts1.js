@@ -20,7 +20,7 @@ $(document).ready(function(){
   })
 
 })
-
+//rolling for play one
 
 function roll(){
   var randomNumber = Math.floor(Math.random()*6)+1;
@@ -42,8 +42,31 @@ function roll(){
     }
   })
 };
-
+//holding for player one
 function hold1(){
   totalPoint += roundPoint
   document.getElementById("points").innerHTML=totalPoint
+}
+//rolling for player 2
+function roll1(){
+  var randomNumber = Math.floor(Math.random()*6)+1;
+  if(randomNumber === 1){
+    document.getElementById("roll0").innerHTML=randomNumber
+    document.getElementById("img2").src = "images/downlod1.png";
+    roundPoint = 0;
+    document.getElementById("turnt").innerHTML=roundPoint
+
+  }
+  array.forEach(function(item){
+    if(item === randomNumber){
+      document.getElementById("roll0").innerHTML=randomNumber
+      document.getElementById("img2").src = "images/downlod" + item + ".png";
+      rolledPoint += randomNumber;
+      roundPoint += rolledPoint
+      rolledPoint = 0;
+      document.getElementById("turnt").innerHTML=roundPoint
+
+    }
+  })
+
 }
