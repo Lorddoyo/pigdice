@@ -1,9 +1,10 @@
+//global variable
 var rolledPoint = 0;
 var roundPoint = 0;
 var totalPoint = 0;
 var array = [2,3,4,5,6];
 
-
+//front-end logic
 $(document).ready(function(){
   $("#player-1").submit(function(event){
     event.preventDefault();
@@ -21,7 +22,7 @@ $(document).ready(function(){
 
 })
 //rolling for play one
-
+//backend logic
 function roll(){
   var randomNumber = Math.floor(Math.random()*6)+1;
   if(randomNumber === 1){
