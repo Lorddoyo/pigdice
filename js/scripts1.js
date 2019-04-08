@@ -30,6 +30,7 @@ function roll(){
     document.getElementById("img1").src = "images/downlod1.png";
     roundPoint = 0;
     document.getElementById("turn").innerHTML=roundPoint
+    alert("Next Player please")
 
   }
   array.forEach(function(item){
@@ -60,7 +61,7 @@ function roll1(){
     document.getElementById("img2").src = "images/downlod1.png";
     roundPoint = 0;
     document.getElementById("turnt").innerHTML=roundPoint
-    alert();
+    alert("next player please");
 
   }
   array.forEach(function(item){
